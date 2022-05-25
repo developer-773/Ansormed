@@ -16,8 +16,8 @@ img{
     width: 1140px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     
 }
 
@@ -42,7 +42,13 @@ img{
     line-height: 33px;
     color: #222222;
     margin: 0;
+    transition: width 0.5s ease, color 0.5s ease;
+
     
+}
+
+.site-logo-text:hover{
+    color: #DE2E54;
 }
 
 
@@ -58,8 +64,6 @@ img{
 .header-nav-item{
     margin-right: 32px;
 }
-
-
 .header-nav-item:nth-child(5){
     margin-right: 0;
 }
@@ -72,9 +76,15 @@ img{
     font-size: 14px;
     letter-spacing: 2px;
     color: #222222;
-    text-decoration: none;
-    
+    text-decoration: none; 
+    transition: width 0.5s ease, color 0.5s ease;
 }
+
+
+.header-nav-link:hover{ 
+    color:#DE2E54;
+}
+
 
 
 
@@ -305,7 +315,11 @@ img{
     padding-left: 16px;
     line-height: 33px;
     color: #FFFFFF;
-    
+    transition: width 0.5s ease, color 0.5s ease;
+}
+
+.logo-text:hover{
+    color: #DE2E54;
 }
 
 .footer-nav-listt{
@@ -328,7 +342,11 @@ img{
     letter-spacing: 2px;
     color: #fff;
     text-decoration: none;
+    transition: width 0.5s ease, color 0.5s ease;
     
 }
 
+.footer-nav-linkk:hover{
+color: #DE2E54;
+}
 
